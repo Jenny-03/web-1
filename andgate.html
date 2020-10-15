@@ -1,0 +1,86 @@
+<head> 
+<style>
+body {
+  background-image: url("sky1.gif");
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+</style>
+</head>
+<body style="background-color:black;">
+<ul>
+  <li><a href="notgate.html">NOT GATE</a></li>
+  <li><a href="andgate.html">AND GATE</a></li>
+  
+</ul>
+<div>
+<h1 style="color:white;">AND GATE</h1>
+
+<p style="color:white;">Here im not gonna explain what a AND GATE is... I think you already know that.</p>
+
+<p style="color:white;">In this case im just gonna give you an example of how it might work.</p>
+
+<center><button class="button" onclick="document.getElementById('myImage').src='and.gif'" width="450" height="200">PRESS</button></center>
+
+<center><img id="myImage" src="gate.png"  width="600" height="200"></center>
+
+
+</div>
+</body>
+</html>
